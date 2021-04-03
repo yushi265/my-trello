@@ -9,10 +9,10 @@
         <list v-for="(item, index) in lists"
           :key="item.id"
           :title="item.title"
-          :kistIndex="index">
+          :listIndex="index">
         </list>
+        <list-add />
       </div>
-      <list-add />
     </main>
   </div>
 </template>
